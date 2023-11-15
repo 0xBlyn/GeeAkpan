@@ -1,0 +1,28 @@
+:root{
+    --ga-dark-blue: #1D3E5D;
+    --white-text: #ffffff;
+}
+.footer{
+    background-color: var(--ga-dark-blue);
+    color: var(--white-text);
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 4%;
+    font-size: 12px;
+}
+.left_side{
+    max-width: 33%;
+}
+.left_side img{
+    width: 100%;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    padding-bottom: 3px;
+    padding-right: 15px;
+}
+.right_side{
+    width: 63%;
+}
