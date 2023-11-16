@@ -1,7 +1,10 @@
 import React from 'react'
-import blog from './assets/SHARDEUM_110_Original 1.png'
 import './Podcasts.css'
 import Card from './Card'
+import img1 from './assets/ethmerge.png'
+import img2 from './assets/aichain.png'
+import img3 from './assets/bridges.png'
+import img4 from './assets/dao.png'
 
 function Medium() {
   return (
@@ -13,10 +16,10 @@ function Medium() {
         </svg></h4>
         </div>
       <div className='cards'>
-        <Card title='THE ETHEREUM MERGE' button="Read More" />
-        <Card title="AI and the Blockchain; What are the possibilities?" button="Read More"/>
-        <Card title="Blockchain bridges: A Simple Guide" button="Read More"/>
-        <Card title="DAO’s: A NEW WAY OF COLLABORATION IN WEB3" button="Read More"/>
+        <Card image={img1} title='THE ETHEREUM MERGE' button="Read More" />
+        <Card image={img2} title="AI and the Blockchain; What are the possibilities?" button="Read More"/>
+        <Card image={img3} title="Blockchain bridges: A Simple Guide" button="Read More"/>
+        <Card image={img4} title="DAO’s: A NEW WAY OF COLLABORATION IN WEB3" button="Read More"/>
       </div>
       
     </div>

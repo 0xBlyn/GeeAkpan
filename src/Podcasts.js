@@ -1,7 +1,10 @@
 import React from 'react'
-import blog from './assets/SHARDEUM_110_Original 1.png'
 import './Podcasts.css'
 import Card from './Card'
+import img1 from './assets/SHARDEUM_110_Original 1.png'
+import img2 from './assets/SHARDEUM_110_Original.png'
+import img3 from './assets/DigitalSkills.png'
+import img4 from './assets/blockchain.png'
 
 function Podcasts() {
   return (
@@ -13,12 +16,11 @@ function Podcasts() {
         </svg></h4>
         </div>
       <div className='cards'>
-        <Card title="Meet with Godswill Akpan. Introducing Me." button="Listen"/>
-        <Card title="The Power of Personal Branding in the Tech Space." button="Listen"/>
-        <Card title="Digital Skills in 2024: What You Should be Looking at." button="Listen"/>
-        <Card title="Blockchain & Cryptocurrencies: Why You Should Invest." button="Listen"/>
+        <Card image={img1} title="Meet with Godswill Akpan. Introducing Me." button="Listen"/>
+        <Card image={img2} title="The Power of Personal Branding in the Tech Space." button="Listen"/>
+        <Card image={img3} title="Digital Skills in 2024: What You Should be Looking at." button="Listen"/>
+        <Card image={img4} title="Blockchain & Cryptocurrencies: Why You Should Invest." button="Listen"/>
       </div>
-      
     </div>
   )
 }

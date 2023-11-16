@@ -1,7 +1,6 @@
 import React from 'react'
-import blog from './assets/SHARDEUM_110_Original 1.png'
 import './Podcasts.css'
-import Card from './Card'
+import YoutubeCard from './Card'
 
 function Youtube() {
   return (
@@ -13,10 +12,10 @@ function Youtube() {
         </svg></h4>
         </div>
       <div className='cards'>
-        <Card title='Web2 vs Web3: Benefits of Web3' />
-        <Card title="My Smart Contract Developer Journey at Web3"/>
-        <Card title="Blockchain Vulnerabilities: The Delimitation of Web3 and Innovation."/>
-        <Card title="Understanding DeFi Protocols and Infrastructures, a deep dive to blockchain usecases."/>
+        <YoutubeCard videoId="SxyZiT0n_rE" title='Web2 vs Web3: Benefits of Web3' />
+        <YoutubeCard videoId='pK8EzF-1GmA' title="My Smart Contract Developer Journey at Web3"/>
+        <YoutubeCard title="Blockchain Vulnerabilities: The Delimitation of Web3 and Innovation."/>
+        <YoutubeCard title="Understanding DeFi Protocols and Infrastructures, a deep dive to blockchain usecases."/>
       </div>
       
     </div>
