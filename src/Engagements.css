@@ -1,0 +1,40 @@
+.engagement{
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10);
+    padding: 16px;
+    min-width: 75vw;
+    margin: 5% 3%;
+}
+.photos{
+    display: flex;
+    max-height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    width: 52%;
+}
+.img2{
+    width: 43%;
+}
+.engagement h3{
+    font-size: 12px;
+    font-weight: 700;
+    color: #1D3E5D;
+    padding: 3% 0;
+}
+.econtainer{
+    padding: 0 5%;
+}
+.erow, .erow2{
+    display: flex;
+    overflow-x: scroll;
+}
+.erow2{
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+.erow::-webkit-scrollbar, .erow2::-webkit-scrollbar{
+    display: none;
+}

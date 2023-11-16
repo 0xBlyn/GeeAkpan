@@ -1,0 +1,39 @@
+:root{
+    --ga-dark-blue: #1D3E5D;
+    --white-text: #ffffff;
+}
+.headline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+.headline h1{
+    background: var(--ga-blue-linear-gradient, linear-gradient(142deg, #238DDB 0%, #1D3E5D 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+}
+.headline h4{
+    display: flex;
+    align-items: center;
+    color: var(--ga-dark-blue);
+    font-size: 12px;
+}
+.cards{
+    display: flex;
+    overflow-x: scroll;
+    padding: 2% 5%;
+}
+.cards::-webkit-scrollbar{
+    display: none;
+}
+.medium{
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+.youtube button{
+    display: none;
+}

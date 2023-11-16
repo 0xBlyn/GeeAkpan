@@ -1,0 +1,25 @@
+.brands{
+    background-color: #EEF6FC;
+    padding-top: 8%;
+    overflow: hidden;
+}
+.brand_logos{
+    padding-top: 3%;
+}
+.brand_logos{
+    animation: scroll 20s linear infinite; 
+}
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+.image-container{
+    white-space: nowrap;
+}
+.image-container img{
+    width: 150%;
+}

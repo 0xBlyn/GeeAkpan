@@ -1,0 +1,24 @@
+.intro{
+    background: url('./assets/IMG_3642 1.png') center/cover, lightgray 0px -556.63px / 132.763% 216.311% no-repeat;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding: 20% 5%; 
+    text-align: center;
+    background-color: rgba(28, 114, 175, 0.8);
+    background-position: 80% 100%;
+}
+.intro h1{
+    font-size: 30px;
+    padding: 2% 0;
+    font-weight: 700;
+}
+.intro h3{
+    font-size: 16px;
+    padding-bottom: 8%;
+}
+.intro button{
+    margin-left: 0;
+}

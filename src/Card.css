@@ -1,0 +1,50 @@
+:root{
+    --ga-dark-blue: #1D3E5D;
+    --white-text: #ffffff;
+}
+.card{
+    width: 800px;
+    margin-right: 5%;
+}
+.card h2{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3% 0;
+    color: var(--ga-dark-blue);
+}
+.card img{
+    width: 200px;
+}
+.card button{
+    margin: 5% 0; 
+    padding: 8px 18px
+}
+.testimony{
+    border-radius: 24px;
+    background: linear-gradient(142deg, #238DDB 0%, #1D3E5D 100%);
+    display: flex;
+    color: #ffffff;
+    margin: 0 3%;
+    min-width: 80vw;
+}
+.tleft{
+    flex: 0.4;
+    padding: 5%;
+    text-align: center;
+}
+.tright{
+    flex: 0.55;
+    padding: 5% 0;
+    text-align: justify;
+    font-size: 12px;
+}
+.tleft h3{
+    font-size: 14px;
+    font-weight: 900;
+    padding-top: 4%;
+}
+.tleft h4{
+    font-size: 12px;
+    font-weight: 700;
+
+}
