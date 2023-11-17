@@ -5,8 +5,6 @@
 }
 .brand_logos{
     padding-top: 3%;
-}
-.brand_logos{
     animation: scroll 20s linear infinite; 
 }
 @keyframes scroll {
@@ -22,4 +20,15 @@
 }
 .image-container img{
     width: 150%;
+}
+@media screen and (min-width: 700px) {
+  .image-container img{
+    width: 100%;
+  }
+  .brand_logos{
+    animation: scroll 10s linear infinite; 
+  }
+  .brands{
+    padding-top: 5%;
+  }
 }

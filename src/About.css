@@ -40,3 +40,39 @@
 .about h1{
     padding-bottom: 10px;
 }
+@media screen and (min-width: 700px) {
+    .about{
+        height: auto;
+        align-items: stretch;
+        padding: 2% 0 6% 0;
+    }
+    .about_img img{
+        object-fit: cover;
+        height: auto;
+        width: auto;
+    }
+    .about_img{
+        flex: 0.43;
+    }
+    .about_img img{
+        max-width: 44vw;
+        object-fit: cover;
+        height: 100%;
+    }
+    .about_txt h1{
+        font-size: 40px;
+        padding-bottom: 5%;
+    }
+    .about_txt h3{
+        font-size: 20px;
+        line-height: normal;
+        padding-bottom: 18px;
+        font-weight: 500;
+    }
+    .about_txt{
+        margin-top: 0;
+        height: auto;
+        padding: 5%;
+        flex: 0.57;
+    }
+}

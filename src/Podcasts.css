@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5%;
+    padding: 5% 7%;
 }
 .headline h1{
     background: var(--ga-blue-linear-gradient, linear-gradient(142deg, #238DDB 0%, #1D3E5D 100%));
@@ -36,4 +36,27 @@
 }
 .youtube button{
     display: none;
+}
+@media screen and (min-width: 700px) {
+    .section{
+        padding: 3% 7%;
+    }
+    .headline{
+        padding: 1.5% 0;
+    }
+    .headline h1{
+        font-size: 32px;
+    }
+    .headline h4{
+        font-size: 15px;
+        padding-right: 1%;
+    }
+    .cards{
+        width: 100%;
+        justify-content: space-between;
+        padding: 3% 0;
+    }
+    .lastcard{
+        margin-right: 0 !important;
+    }
 }

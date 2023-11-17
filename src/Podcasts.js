@@ -8,7 +8,7 @@ import img4 from './assets/blockchain.png'
 
 function Podcasts() {
   return (
-    <div>
+    <div className='section'>
         <div className='headline'>
             <h1>VoG Podcasts</h1>
             <h4>See more<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -19,7 +19,7 @@ function Podcasts() {
         <Card image={img1} title="Meet with Godswill Akpan. Introducing Me." button="Listen"/>
         <Card image={img2} title="The Power of Personal Branding in the Tech Space." button="Listen"/>
         <Card image={img3} title="Digital Skills in 2024: What You Should be Looking at." button="Listen"/>
-        <Card image={img4} title="Blockchain & Cryptocurrencies: Why You Should Invest." button="Listen"/>
+        <Card className="lastcard" image={img4} title="Blockchain & Cryptocurrencies: Why You Should Invest." button="Listen"/>
       </div>
     </div>
   )

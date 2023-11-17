@@ -53,6 +53,7 @@ export function YoutubeCard({ videoId, title, button }) {
 
     fetchThumbnail();
   }, [videoId]);
+
   return (
     <div className='card'>
       <a

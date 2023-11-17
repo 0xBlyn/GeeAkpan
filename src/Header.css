@@ -16,7 +16,7 @@ ul{
     display: flex;
     align-items: center;
 }
-a{
+.header a{
     text-decoration: none;
     color: var(--white-text);
     padding: 0 24px;
@@ -45,8 +45,11 @@ img{
 .header_logo{
     flex: 0.35;
 }
-@media only screen and (max-width: 600px) {
-    .header_links, .header_button{
+.moreicon{
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    .header_links, .header_button, .moreicon{
         display: none;
     }
     img{
@@ -54,5 +57,8 @@ img{
     }
     .header_logo{
         flex: 0.45;
+    }
+    .moreicon{
+        display: flex;
     }
 }

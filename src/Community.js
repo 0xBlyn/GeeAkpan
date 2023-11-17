@@ -19,10 +19,12 @@ function Community() {
         </div>
         <div className='comtext'>
           <h2>Join the FTLD Community to kickstart your tech journey!</h2>
-          <h4>Interested in growing in the tech space, connecting with other tech enthusiasts that will keep you motivated in your tech journey?<br/>
-          At FTLD (For The Love of Defi) , we are empowering our community members to embrace innovation using emerging tech skills!<br/>
-          Our platform is known to help over 3000 people transition into the tech space, find their paths and become Key Opinion Leaders in their tech tracks.</h4>
-          <button>Join FTLD</button>
+          <div className='h4'>
+            <h4>Interested in growing in the tech space, connecting with other tech enthusiasts that will keep you motivated in your tech journey?<br/></h4>
+            <h4 className='comspan'>At FTLD (For The Love of Defi) , we are empowering our community members to embrace innovation using emerging tech skills!<br/></h4>
+            <h4>Our platform is known to help over 3000 people transition into the tech space, find their paths and become Key Opinion Leaders in their tech tracks.</h4>
+          </div>
+          <button className='wbtn'>Join FTLD</button>
         </div>
       </div>
     </div>

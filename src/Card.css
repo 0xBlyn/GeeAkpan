@@ -48,3 +48,19 @@
     font-weight: 700;
 
 }
+@media screen and (min-width: 700px) {
+    .card{
+        width: 45vw;
+        margin-right: 2.5%;
+    }
+    .card img{
+        width: 100%;
+    }
+    .card h2{
+        font-size: 16px;
+        padding: 4% 0;
+    }
+    .lastcard{
+        margin-right: 0 !important;
+    }
+}

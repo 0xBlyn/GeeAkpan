@@ -11,6 +11,7 @@ import Testimonials from './Testimonials';
 import Engagements from './Engagements';
 import Brands from './Brands';
 import Newsletter from './Newsletter';
+import Ebook from './Ebook';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <About />
       <Engagements />
       <Testimonials />
+      <Ebook />
       <Community />
       <Podcasts />
       <Medium />

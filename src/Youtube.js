@@ -4,7 +4,7 @@ import YoutubeCard from './Card'
 
 function Youtube() {
   return (
-    <div className='youtube'>
+    <div className='youtube section'>
         <div className='headline'>
             <h1>Godswill Akpan on Youtube</h1>
             <h4>See more<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none">
@@ -12,7 +12,7 @@ function Youtube() {
         </svg></h4>
         </div>
       <div className='cards'>
-        <YoutubeCard videoId="SxyZiT0n_rE" title='Web2 vs Web3: Benefits of Web3' />
+        <YoutubeCard videoId="IiOHeXayi64" title='Web2 vs Web3: Benefits of Web3' />
         <YoutubeCard videoId='pK8EzF-1GmA' title="My Smart Contract Developer Journey at Web3"/>
         <YoutubeCard title="Blockchain Vulnerabilities: The Delimitation of Web3 and Innovation."/>
         <YoutubeCard title="Understanding DeFi Protocols and Infrastructures, a deep dive to blockchain usecases."/>

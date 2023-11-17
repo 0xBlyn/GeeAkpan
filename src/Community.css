@@ -65,9 +65,12 @@
     font-size: 12px;
     line-height: 17px;
     text-align: justify;
+    padding: 1% 0;
+}
+.h4{
     padding: 5% 0;
 }
-.comtext button{
+.wbtn{
     border-radius: 4px;
     background: #FFF;
     padding: 5px 10px;
@@ -83,4 +86,63 @@
 }
 .container_card::-webkit-scrollbar{
     display: none;
+}
+@media screen and (min-width: 700px) {
+    .community{
+        .community h1{
+            font-size: 40px;
+        }
+        padding: 3% 2%;
+        align-items: stretch;
+    }
+    .comcard{
+        flex-direction: row;
+        border-radius: 48px;
+        border: 12px solid #6D3C70;
+        padding: 0;
+        position: relative;
+    }
+    .comimages{
+        flex: 0.5;
+        padding-left: 5%;
+        padding-top: 2%;
+    }
+    .comteam{
+        object-fit: contain;
+        width: 52%;
+        display: flex;
+        bottom: 0;
+        position: absolute;
+        padding-left: 3%;
+    }
+    .comtext{
+        flex: 0.5;
+        padding-right: 3%;
+        text-align: l;
+        display: flex;
+        align-items: flex-start;
+    }
+    .comlogo{
+        width: 100px;
+        margin-bottom: 0;
+    }
+    .comtext h2{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .comtext h4{
+        font-size: 20px;
+        line-height: 28px;
+        text-align: left;
+        font-weight: 500;
+        padding: 5% 0;
+    }
+    .comtext h4{
+        padding: 5px 0;
+    }
+    .wbtn{
+        padding: 10px 40px;
+        font-size: 20px;
+        margin-top: 3%;
+    }
 }

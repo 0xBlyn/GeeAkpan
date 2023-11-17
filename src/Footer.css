@@ -26,8 +26,39 @@ td{
 .right_side{
     width: 63%;
 }
-@media only screen and(min-width: 600px) {
+.footer a{
+    padding-left: 0;
+    text-decoration: none;
+    color: var(--white-text);
+} 
+.footer a:hover{
+    color: #238ddc;
+}
+.th td{
+    font-weight: 600;
+}
+td{
+    font-weight: 400;
+}
+@media screen and (min-width: 700px) {
     .footer{
-
+        padding: 7% 5%;
+        font-size: 24px;
+    }
+    .left_side img{
+        width: 70%;
+        margin-left: 8%;
+    }
+    .right_side{
+        flex: 0.5;
+    }
+    .left_side{
+        flex: 0.4;
+    }
+    td{
+        padding-bottom: 3%;
+    }
+    table{
+        width: 100%;
     }
 }
