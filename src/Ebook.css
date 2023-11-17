@@ -4,7 +4,7 @@
     background: var(--ga-blue-linear-gradient, linear-gradient(142deg, #238DDB 0%, #1D3E5D 100%));
     margin: 5%;
     color: #fff;
-    padding: 3% 3%;
+    padding: 6% 3%;
     max-height: 180px;
     align-items: center;
     margin: 10% 5%;
@@ -14,7 +14,7 @@
 }
 .ebook h1{
     font-size: 22px;
-    padding: 3% 0;
+    padding: 2% 0;
     font-weight: 700;
 }
 .ebook h4{
@@ -30,4 +30,40 @@
 }
 .ebook_right{
     flex: 0.47;
+}
+.ebook button{
+    color: #2C5D8C;
+}
+@media screen and (min-width: 700px) {
+    .ebook{
+        max-height: 410px;
+        justify-content: space-between;
+        border-radius: 48px;
+        margin: 8% 7%;
+    }
+    .ebook_left{
+        flex: 0.67;
+    }
+    .ebook h3{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .ebook h1{
+        font-size: 80px;
+        font-weight: 700;
+        padding-bottom: 1%;
+    }
+    .ebook h4{
+        font-size: 24px;
+        padding-bottom: 2%;
+        font-weight: 500;
+        max-width: 80%;
+    }
+    .ebook_right{
+        flex: 0.33;
+    }
+    .ebook img{
+        height: 500px;
+        width: 100%;
+    }
 }

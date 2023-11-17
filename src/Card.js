@@ -19,7 +19,7 @@ export function Card1({photo, name, company, testimony}) {
   return(
     <div className='testimony'>
     <div className='tleft'>
-      <img src={pic} alt='human' />
+      <img className='pic' src={pic} alt='human' />
       <h3>{name}</h3>
       <h4>Shardeum Co.</h4>
     </div>

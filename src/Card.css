@@ -63,4 +63,27 @@
     .lastcard{
         margin-right: 0 !important;
     }
+    .testimony{
+        width: 100%;
+        min-width: 55vw;
+    }
+    .tleft{
+        padding: 5% 2%;
+        flex: 0.4;
+    }
+    .tright{
+        font-size: 20px;
+        text-align: left;
+    }
+    .tleft h3{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .tleft h4{
+        font-size: 16px;
+    }
+    .pic{
+        width: 224px;
+        height: 224px;
+    }
 }

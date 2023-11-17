@@ -89,11 +89,11 @@
 }
 @media screen and (min-width: 700px) {
     .community{
-        .community h1{
-            font-size: 40px;
-        }
         padding: 3% 2%;
         align-items: stretch;
+    }
+    .head h1{
+        font-size: 40px;
     }
     .comcard{
         flex-direction: row;
@@ -144,5 +144,8 @@
         padding: 10px 40px;
         font-size: 20px;
         margin-top: 3%;
+    }
+    .container_card{
+        margin: 4% 6%;
     }
 }
