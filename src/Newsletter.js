@@ -6,7 +6,6 @@ import vector from './assets/Vector 1.png'
 function Newsletter() {
   return (
     <div className='newsletter'>
-              <img className='vector' src={vector} alt='vector' />
       <div>
         <img className='env' src={envelope} alt='envelope' />
         <h3>Subscribe to My Newsletter</h3>
@@ -16,6 +15,7 @@ function Newsletter() {
             <button type="submit">Subscribe</button>
         </form>
       </div> 
+      <img className='vector' src={vector} alt='vector' />
     </div>
   )
 }
