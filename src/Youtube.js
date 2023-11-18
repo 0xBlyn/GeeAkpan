@@ -1,6 +1,7 @@
 import React from 'react'
 import './Podcasts.css'
-import YoutubeCard from './Card'
+import img1 from './assets/ethmerge.png'
+import Card from './Card'
 
 function Youtube() {
   return (
@@ -12,10 +13,10 @@ function Youtube() {
         </svg></h4>
         </div>
       <div className='cards'>
-        <YoutubeCard videoId="IiOHeXayi64" title='Web2 vs Web3: Benefits of Web3' />
-        <YoutubeCard videoId='pK8EzF-1GmA' title="My Smart Contract Developer Journey at Web3"/>
-        <YoutubeCard title="Blockchain Vulnerabilities: The Delimitation of Web3 and Innovation."/>
-        <YoutubeCard title="Understanding DeFi Protocols and Infrastructures, a deep dive to blockchain usecases."/>
+        <Card image={img1} title='Web2 vs Web3: Benefits of Web3' />
+        <Card image={img1} title="My Smart Contract Developer Journey at Web3"/>
+        <Card image={img1} title="Blockchain Vulnerabilities: The Delimitation of Web3 and Innovation."/>
+        <Card image={img1} title="Understanding DeFi Protocols and Infrastructures, a deep dive to blockchain usecases."/>
       </div>
       
     </div>
