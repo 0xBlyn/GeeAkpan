@@ -109,11 +109,12 @@
     }
     .comteam{
         object-fit: contain;
-        width: 52%;
+        width: 50%;
         display: flex;
         bottom: 0;
         position: absolute;
         padding-left: 3%;
+        margin-top: 10%;
     }
     .comtext{
         flex: 0.5;
