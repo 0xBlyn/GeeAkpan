@@ -26,7 +26,7 @@ function Footer() {
                 <td>Podcasts</td>
             </tr>
             <tr>
-                <td><a target='blank' href="https://ng.linkedin.com/in/geeakpan">Twitter</a></td>
+                <td><a target='blank' href="https://twitter.com/GeeAkpan">Twitter</a></td>
                 <td>Jara Stores</td>
                 <td>Newsletter</td>
             </tr>
