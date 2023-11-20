@@ -7,11 +7,12 @@
     color: var(--white-text);
     display: flex;
     justify-content: space-between;
-    padding: 5% 4%;
-    font-size: 12px;
+    padding: 5% 5%;
+    font-size: 11px;
 }
 .left_side{
-    max-width: 33%;
+    max-width: 30%;
+    margin-right: 5%;
 }
 .left_side img{
     width: 100%;
@@ -24,7 +25,7 @@ td{
     padding-right: 15px;
 }
 .right_side{
-    width: 63%;
+    width: 70%;
 }
 .footer a{
     padding-left: 0;

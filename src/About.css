@@ -9,7 +9,7 @@
     align-items: center;
     font-size: 8px;
     font-weight: 400;
-    height: 300px;
+    height: 18.75rem;
     color: var(--ga-dark-blue);
     line-height: 13px;
     background-color: #EEF6FC;
@@ -18,11 +18,11 @@
     flex: 0.5;
 }
 .about img{
-    height: 260px;
+    height: 16.25rem
 }
 .about_txt{
     overflow-y: scroll;
-    height: 260px;
+    height: 16.25rem;
     margin-top: -3px;
     text-align: justify;
     padding: 4% 3%;
@@ -32,7 +32,7 @@
     display: none;
 }
 .about h3{
-    padding-bottom: 5px;
+    padding-bottom: 0.313rem;
 }
 .about span{
     color: var(--header-button);
@@ -60,13 +60,13 @@
         height: 100%;
     }
     .about_txt h1{
-        font-size: 40px;
+        font-size: 2.5rem;
         padding-bottom: 5%;
     }
     .about_txt h3{
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: normal;
-        padding-bottom: 18px;
+        padding-bottom: 1.125rem;
         font-weight: 500;
     }
     .about_txt{
