@@ -1,6 +1,5 @@
-// Engagements.js
 import React from 'react';
-import Engagement from './Engagement'
+import './Engagements.css'
 import tftf from './assets/8d1116e5-5898-4c8d-9815-accd4643d226 1.png'
 import tftf1 from './assets/41eccd53-6197-4d76-81b6-a4b1ec8a8bc8 1.png'
 import tftf3 from './assets/img_63_Original.png'
