@@ -5,3 +5,15 @@
   margin: 0;
   font-family: 'Syne', sans-serif;
 }
+.scrollbtn{
+  position: fixed;
+  bottom: 10%;
+  right: 8%;
+  background-color: #238DDB;
+  color: #fff;
+  padding: 5px;
+  border-radius: 6px;
+}
+.scrollbtn:hover{
+  opacity: 80;
+}

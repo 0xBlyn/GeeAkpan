@@ -1,9 +1,22 @@
-import React from 'react'
-import './Header.css'
-import logo from './assets/logowhite.png'
+import React, { useState } from 'react';
+import './Header.css';
+import logo from './assets/logowhite.png';
 import DehazeIcon from '@mui/icons-material/Dehaze';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import IconButton from '@mui/material/IconButton';
 
 function Header() {
+  const [anchorEl, setAnchorEl] = useState(null);
+
+  const handleMenuClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleMenuClose = () => {
+    setAnchorEl(null);
+  };
+
   return (
     <div className='header'>
       <div className='header_logo'>
@@ -11,29 +24,39 @@ function Header() {
       </div>
       <div className='header_links'>
         <ul>
-            <a href='/'>Who Am I</a>
-            <a href='/'>Events
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M4.66666 6.66666L8 9.99999L11.3333 6.66666H4.66666Z" fill="white"/>
-            </svg></a>
-            <a href='/'>My Story
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M4.66666 6.66666L8 9.99999L11.3333 6.66666H4.66666Z" fill="white"/>
-            </svg></a>
-            <a href='/'>Let's Innovate
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M4.66666 6.66666L8 9.99999L11.3333 6.66666H4.66666Z" fill="white"/>
-            </svg></a>
+          <a href='/'>Who Am I</a>
+          <a href='/'>Events</a>
+          <a href='/'>My Story</a>
+          <a href='/'>Let's Innovate</a>
         </ul>
       </div>
       <div className='header_button'>
         <button>Book Me</button>
       </div>
       <div className='moreicon'>
-        <DehazeIcon />
+        <IconButton
+          edge="end"
+          color="inherit"
+          aria-label="menu"
+          onClick={handleMenuClick}
+        >
+          <DehazeIcon />
+        </IconButton>
+        <Menu
+          id="menu"
+          anchorEl={anchorEl}
+          keepMounted
+          open={Boolean(anchorEl)}
+          onClose={handleMenuClose}
+        >
+          <MenuItem onClick={handleMenuClose}>Who Am I</MenuItem>
+          <MenuItem onClick={handleMenuClose}>Events</MenuItem>
+          <MenuItem onClick={handleMenuClose}>My Story</MenuItem>
+          <MenuItem onClick={handleMenuClose}>Let's Innovate</MenuItem>
+        </Menu>
       </div>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

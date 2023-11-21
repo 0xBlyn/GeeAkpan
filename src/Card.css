@@ -5,6 +5,7 @@
 .card{
     width: 800px;
     margin-right: 5%;
+    position: relative;
 }
 .card h2{
     font-size: 12px;
@@ -14,6 +15,7 @@
 }
 .card img{
     width: 200px;
+    border-radius: 6px;
 }
 .card button{
     margin: 5% 0; 
@@ -48,6 +50,19 @@
     font-weight: 700;
 
 }
+.thumbnail-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8; /* Adjust as needed */
+    /* Add any additional styling for the play icon */
+  }
 @media screen and (min-width: 700px) {
     .card{
         width: 45vw;
