@@ -48,6 +48,10 @@ function Header() {
           keepMounted
           open={Boolean(anchorEl)}
           onClose={handleMenuClose}
+          style={{
+            display: "flex",
+            flexDirection: "column !important"
+          }}
         >
           <MenuItem onClick={handleMenuClose}>Who Am I</MenuItem>
           <MenuItem onClick={handleMenuClose}>Events</MenuItem>

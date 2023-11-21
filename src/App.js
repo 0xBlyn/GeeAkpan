@@ -26,7 +26,7 @@ function App() {
   };
 
   const handleScroll = () => {
-    if (window.scrollY > window.innerHeight) {
+    if (window.scrollY > 20) {
       setShowScrollButton(true);
     } else {
       setShowScrollButton(false);
