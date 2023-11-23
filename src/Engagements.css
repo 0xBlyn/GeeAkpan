@@ -67,9 +67,6 @@
         min-height: 200px;
         object-fit: contain;
     }
-    .engagement {
-        max-width: 30vw;
-    }
     .elarge{
         min-width: 45vw;
     }
