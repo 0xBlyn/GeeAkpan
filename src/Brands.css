@@ -24,6 +24,7 @@
 @media screen and (min-width: 700px) {
   .image-container img{
     width: 100%;
+    margin: 2% 0;
   }
   .brand_logos{
     animation: scroll 10s linear infinite; 

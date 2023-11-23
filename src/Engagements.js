@@ -70,9 +70,13 @@ function Engagements() {
           </div>
           </div>
         <div className='erow2'>
-        <div style={{
-          minWidth: "70vw"
-        }} className='engagement'>
+        <div className='engagement' style={{
+          minWidth: "70vw",
+          '@media screen and (max-width: 700px)': {
+          minWidth: "unset",
+          minWidth: "30vw"
+          }
+        }}>
             <div className='photos'>
               <img className='img1' src={shardeum} alt="event" />
             </div>

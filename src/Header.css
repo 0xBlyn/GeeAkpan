@@ -80,14 +80,18 @@ img {
   right: 20px;
   cursor: pointer;
 }
-
+.sidebar-trigger {
+  display: none;
+}
 @media screen and (max-width: 800px) {
   .header_links,
   .header_button,
-  .moreicon {
+  .moreicon{
     display: none;
   }
-
+  .sidebar-trigger{
+    display: flex;
+  }
   img {
     width: 100%;
   }

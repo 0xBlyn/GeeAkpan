@@ -63,8 +63,12 @@
 }
 
 @media screen and (min-width: 700px) {
+    .photos img {
+        min-height: 200px;
+        object-fit: contain;
+    }
     .engagement {
-        min-width: 45vw;
+        max-width: 30vw;
     }
     .elarge{
         min-width: 45vw;
@@ -72,16 +76,6 @@
     .img2 {
         margin-left: 1%;
     }
-
-    .photos {
-        height: 200px;
-        display: flex;
-    }
-
-    .photos img {
-        height: 200px;
-    }
-
     .erow {
         overflow-x: scroll;
     }
