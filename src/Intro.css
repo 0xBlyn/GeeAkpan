@@ -41,15 +41,15 @@
   }
   
   .zoom {
-    animation: zoom-in 2.5s;
+    animation: zoom-in 2.5s ease-in-out;
   }
   
   .fade-left {
-    animation: fade-in-left 2.5s;
+    animation: fade-in-left 2.5s ease-in-out;
   }
   
   .fade-right {
-    animation: fade-in-right 2.5s;
+    animation: fade-in-right 2.5s ease-in-out;
   }
   
   @keyframes zoom-in {
