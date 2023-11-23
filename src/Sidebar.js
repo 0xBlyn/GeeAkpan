@@ -1,49 +1,24 @@
-import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
-import './Sidebar.css'; // Import the external CSS file
+import React from 'react';
+import './Sidebar.css';
+import CloseIcon from '@mui/icons-material/Close';
 
-class Sidebar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isSidebarOpen: false,
-    };
-  }
-
-  toggleSidebar = () => {
-    this.props.onClose();
+const Sidebar = ({ isOpen, onClose }) => {
+  const handleClose = () => {
+    onClose();
   };
 
-  handleLogoClick = () => {
-    this.setState((prevState) => ({
-      isSidebarOpen: !prevState.isSidebarOpen,
-    }));
-  };
-
-  render() {
-    const { isOpen } = this.props;
-    const { isSidebarOpen } = this.state;
-
-    return (
-      <div
-        className={`sidebar-container ${isOpen ? 'open' : ''}`}
-      >
-        <ul>
-          <li>
-            rose
-        </li>  
-        <li>
-            rose
-        </li>
-
-        <li>
-            rose
-        </li>
-        </ul>
-        
-      </div>
-    );
-  }
-}
+  return (
+    <div className={`open-sidebar ${isOpen ? 'show-sidebar' : ''}`}>
+      <CloseIcon className='close-icon' onClick={handleClose} />
+      <ul className='sidebar-lists'>
+        {/* <li><a href='/'>Who Am I</a></li>
+        <li><a href='/'>Events</a></li>
+        <li><a href='/'>My Story</a></li>
+        <li><a href='/'>Let's Innovate</a></li> */}
+        Work in Progress
+      </ul>
+    </div>
+  );
+};
 
 export default Sidebar;
