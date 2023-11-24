@@ -64,14 +64,15 @@
 
 @media screen and (min-width: 700px) {
     .photos img {
-        min-height: 200px;
+        height: 200px;
         object-fit: contain;
     }
     .elarge{
-        min-width: 45vw;
+        /* min-width: 45vw; */
     }
     .img2 {
         margin-left: 1%;
+        height: 200px;
     }
     .erow {
         overflow-x: scroll;

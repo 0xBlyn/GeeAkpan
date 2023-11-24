@@ -4,6 +4,7 @@ import logo from './assets/logowhite.png';
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import Sidebar from './Sidebar';
 import CloseIcon from '@mui/icons-material/Close';
+import dropdown from './assets/gridicons_dropdown.png'
 
 function Header() {
   const [show, handleShow] = useState(false);
@@ -34,9 +35,9 @@ function Header() {
       <div className='header_links'>
         <ul>
           <a href='/'>Who Am I</a>
-          <a href='/'>Events</a>
-          <a href='/'>My Story</a>
-          <a href='/'>Let's Innovate</a>
+          <a href='/'>Events <img src={dropdown} alt="dropdown icon" /></a>
+          <a href='/'>My Story <img src={dropdown} alt="dropdown icon" /></a>
+          <a href='/'>Let's Innovate <img src={dropdown} alt="dropdown icon" /></a>
         </ul>
       </div>
       <div className='header_button'>
