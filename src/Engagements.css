@@ -63,22 +63,25 @@
 }
 
 @media screen and (min-width: 700px) {
+    .engagement{
+        min-width: 25vw;
+        height: 350px;
+        padding: 1% 1%; 
+        margin: 3% 0;
+    }
     .photos img {
-        height: 200px;
+        max-height: 200px;
         object-fit: contain;
+        width: 150%;
     }
-    .elarge{
-        /* min-width: 45vw; */
-    }
-    .img2 {
-        margin-left: 1%;
-        height: 200px;
+    .img2, .eimg2 {
+        margin-left: 16px;
     }
     .erow {
         overflow-x: scroll;
     }
 
-    .engagement h3 {
+    .engagement h3, .elarge h3 {
         font-size: 24px;
     }
 
