@@ -16,10 +16,10 @@ function Medium() {
         </svg></h4>
         </div>
       <div className='cards'>
-        <Card image={img1} title='THE ETHEREUM MERGE' button="Read More" />
-        <Card image={img2} title="AI and the Blockchain; What are the possibilities?" button="Read More"/>
-        <Card image={img3} title="Blockchain bridges: A Simple Guide" button="Read More"/>
-        <Card image={img4} title="DAO’s: A NEW WAY OF COLLABORATION IN WEB3" button="Read More"/>
+        <Card image={img1} title='THE ETHEREUM MERGE' button="Read More" sublet="The Ethereum merge is finally complete as the cryptocurrency switches..." />
+        <Card image={img2} title="AI and the Blockchain; What are the possibilities?" button="Read More" sublet="Artificial intelligence (AI) and blockchain are two..." />
+        <Card image={img3} title="Blockchain bridges: A Simple Guide" button="Read More" sublet="The prospective future of decentralized blockchain..." />
+        <Card image={img4} title="DAO’s: A NEW WAY OF COLLABORATION IN WEB3" button="Read More" sublet="The rise of decentralized autonomous organizations..." />
       </div>
       
     </div>

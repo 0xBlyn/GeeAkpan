@@ -83,6 +83,7 @@ form button{
     .newsletter h4{
         font-size: 24px;
         padding: 0 12%;
+        font-weight: 600;
     }
     .newsletter form{
         margin: 7% 0 5% 0;
@@ -100,3 +101,9 @@ form button{
         border-radius: 4px;
     }
 }
+/* Tablets and small laptops */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .newsletter div{
+        margin: 5% 8%;
+    }
+  }

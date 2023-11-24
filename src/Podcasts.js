@@ -19,7 +19,7 @@ function Podcasts() {
         <Card image={img1} title="Meet with Godswill Akpan. Introducing Me." button="Listen"/>
         <Card image={img2} title="The Power of Personal Branding in the Tech Space." button="Listen"/>
         <Card image={img3} title="Digital Skills in 2024: What You Should be Looking at." button="Listen"/>
-        <Card className="lastcard" image={img4} title="Blockchain & Cryptocurrencies: Why You Should Invest." button="Listen"/>
+        <Card className="lastcard" image={img4} title="Blockchain & Crypto: Why You Should Invest." button="Listen"/>
       </div>
     </div>
   )

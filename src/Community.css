@@ -87,7 +87,7 @@
 .container_card::-webkit-scrollbar{
     display: none;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
     .community{
         padding: 3% 2%;
         align-items: stretch;
@@ -150,3 +150,21 @@
         margin: 4% 6%;
     }
 }
+/* Tablets and small laptops */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .comcard{
+        font-size: 16px;
+    }
+    .comtext{
+        width: 60vw;
+    }
+    .h4 h4{
+        max-height: 500px !important;
+        overflow-y: scroll;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .h4::-webkit-scrollbar{
+        display: none;
+    }
+  }

@@ -13,6 +13,11 @@
     padding: 3% 0;
     color: var(--ga-dark-blue);
 }
+.card h5{
+    color: #1D3E5D;
+    font-weight: 400;
+    font-size: 12px;
+}
 .card img{
     width: 200px;
     border-radius: 6px;
@@ -74,6 +79,11 @@
     .card h2{
         font-size: 16px;
         padding: 4% 0;
+        font-weight: 600;
+    }
+    .card h5{
+        font-size: 16px;
+        font-weight: 500;
     }
     .lastcard{
         margin-right: 0 !important;
@@ -102,3 +112,14 @@
         height: 224px;
     }
 }
+/* Tablets and small laptops */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .card h2{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .card h5{
+        font-size: 10px;
+        font-weight: 300;
+    }
+  }

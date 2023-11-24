@@ -7,6 +7,7 @@ function Card({image, title, sublet, button}) {
     <div className='card'>
         <img src={image} alt="event images" />
         <h2>{title}</h2>
+        <h5>{sublet}</h5>
         <button>{button}</button>
     </div>
   )
