@@ -26,7 +26,9 @@
   .intro button {
     margin-left: 0;
   }
-  
+  .intro button:hover{
+    background-color: #172e46;
+  }
   .intro_animation {
     width: 100%;
     display: flex;

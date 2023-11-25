@@ -4,7 +4,7 @@ import geeAkpan from './assets/Godswill.png'
 
 function About() {
   return (
-    <div className='about'>
+    <div id="about" className='about'>
       <div className='about_img'>
         <img src={geeAkpan} alt='Godswill Akpan' />
       </div>

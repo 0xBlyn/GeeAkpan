@@ -4,7 +4,7 @@ import ebook from './assets/Book 2.png'
 
 function Ebook() {
   return (
-    <div className='ebook'>
+    <div id="ebooks" className='ebook'>
       <div className='ebook_left'>
         <h3>I have a special gift for you.</h3>
         <h1>Niching Down</h1>
