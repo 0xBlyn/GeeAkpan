@@ -27,11 +27,14 @@ function Footer() {
             </tr>
             <tr>
                 <td><a target='blank' href="https://twitter.com/GeeAkpan">Twitter</a></td>
-                <td>Jara Stores</td>
+                <td>Aubrey Marketing</td>
                 <td>Newsletter</td>
             </tr>
             <tr>
                 <td><a target='blank' href="https://ng.linkedin.com/in/geeakpan">LinkedIn</a></td>
+            </tr>
+            <tr>
+                <td><a target='blank' href="https://www.youtube.com/@GeeAkpan/videos">Youtube</a></td>
             </tr>
         </table>
         </div>

@@ -34,9 +34,6 @@
 .ebook button{
     color: #2C5D8C;
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    
-}
 @media screen and (min-width: 700px) {
     .ebook{
         max-height: 410px;

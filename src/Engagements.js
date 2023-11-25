@@ -42,13 +42,10 @@ function Engagements() {
             </div>
             <h3>Happy Teens For the Future Conference</h3>
           </div>
-          <div className='elarge'>
+          <div className='engagement'>
           <div className='photos'>
-              <img className='eimg1' src={htfc} alt="event" />
-              <img style={{
-                maxWidth: "60vw",
-                marginLeft: "3%"
-              }} className='eimg2' src={tftf3} alt="event" />
+              <img className='img1' src={htfc} alt="event" />
+              <img className='img2' src={tftf3} alt="event" />
             </div>
           <h3>Happy Teens For the Future Conference</h3>
           </div>
@@ -59,11 +56,9 @@ function Engagements() {
             </div>
           <h3>Flow Network, Uyo: Become a Web3 OG; The Benefits of Value Contribution</h3>
           </div>
-          <div className='elarge'>
+          <div className='engagement'>
           <div className='photos'>
-              <img style={{
-                maxWidth: "30vw"
-              }}  className='img1' src={spce} alt="event" />
+              <img className='img1' src={spce} alt="event" />
               <img className='img2' src={spce1} alt="event" />
             </div>
           <h3>Shardeum Proof of Community Event, Port Harcourt</h3>
@@ -76,11 +71,9 @@ function Engagements() {
             </div>
             <h3>Shardeum Proof of Community: Communication in Web3, The Bunker</h3>
           </div>
-          <div style={{
-          minWidth: "70vw"
-        }}  className='engagement'>
+          <div className='engagement'>
           <div className='photos'>
-              <img className='eimg1' src={shardeum2} alt="event" />
+              <img className='img1' src={shardeum2} alt="event" />
             </div>
           <h3>Shardeum Proof of Community Event, Abia State</h3>
           </div>
@@ -91,40 +84,31 @@ function Engagements() {
             </div>
           <h3>21st Century Tech Skills Conference with Assemblies of GOD Youths, Ikot Ekpene</h3>
           </div>
-          <div className='elarge'>
+          <div className='engagement'>
           <div className='photos'>
               <img className='img1' src={zeta2} alt="event" />
               <img className='img2' src={zeta} alt="event" />
             </div>
           <h3>Zetachain Community Meetup, Uyo: Understanding Multichain</h3>
           </div>
-          <div className='elarge'>
+          <div className='engagement'>
           <div className='photos'>
-              <img style={{
-                maxWidth: "30vw"
-              }} className='img1' src={zcm} alt="event" />
-              <img style={{
-                maxWidth: "60vw",
-                marginLeft: "3%"
-              }} src={zcm1} alt="event" />
+              <im className='img1' src={zcm} alt="event" />
+              <img src={zcm1} alt="event" />
             </div>
           <h3>Blockchain Invasion: Akwa Ibom State University, Mkpat Enin</h3>
           </div>
         </div>
         <div className='erow'>
-        <div style={{
-          minWidth: "60vw"
-        }} className='engagement'>
+        <div className='engagement'>
             <div className='photos'>
               <img className='img1' src={ubm} alt="event" />
             </div>
             <h3>Uyo Blockchain Meetup: Careers and Skills in the Web3 Ecosystem.</h3>
           </div>
-          <div style={{
-          minWidth: "60vw"
-        }} className='engagement'>
+          <div className='engagement'>
           <div className='photos'>
-              <img className='eimg1' src={ubp} alt="event" />
+              <img className='img1' src={ubp} alt="event" />
             </div>
           <h3>Uyo Blockchain Pizza Day: Way Ahead, Blockchain Tech.</h3>
           </div>
@@ -135,20 +119,16 @@ function Engagements() {
             </div>
           <h3>JNAC Blockchain Invasion.</h3>
           </div>
-          <div className='elarge'>
+          <div className='engagement'>
           <div className='photos'>
-              <img style={{
-                maxWidth: "30vw"
-              }}  className='img1' src={ftt} alt="event" />
+              <img className='img1' src={ftt} alt="event" />
               <img className='img2' src={ftt1} alt="event" />
             </div>
           <h3>FTT DAO Blockchain Event: Growing in the Web3 Ecosystem</h3>
           </div>
-          <div className='elarge'>
+          <div className='engagement'>
           <div className='photos'>
-              <img style={{
-                maxWidth: "30vw"
-              }}  className='img1' src={spcc1} alt="event" />
+              <img className='img1' src={spcc1} alt="event" />
               <img className='img2' src={spcc} alt="event" />
             </div>
           <h3>Shardeum Proof of Community Event, Calabar South, Nigeria.</h3>

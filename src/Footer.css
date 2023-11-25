@@ -8,11 +8,13 @@
     display: flex;
     justify-content: space-between;
     padding: 5% 5%;
-    font-size: 11px;
+    flex-direction: column;
+    font-size: 13px;
 }
 .left_side{
-    max-width: 30%;
+    max-width: 45%;
     margin-right: 5%;
+    margin-bottom: 5%;
 }
 .left_side img{
     width: 100%;
@@ -21,11 +23,11 @@ table{
     border-collapse: collapse;
 }
 td{
-    padding-bottom: 3px;
-    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-right: 40px;
 }
 .right_side{
-    width: 70%;
+    width: 100%;
 }
 .footer a{
     padding-left: 0;
@@ -44,6 +46,7 @@ td{
 @media screen and (min-width: 700px) {
     .footer{
         padding: 7% 5%;
+        flex-direction: row;
         font-size: 24px;
     }
     .left_side img{
@@ -67,14 +70,19 @@ td{
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .footer{
         font-size: 20px;
+        flex-direction: row;
     }
     .left_side{
-        flex: 0.35;
+        flex: 0.3;
     }
     .left_side img{
-        width: 100%;
+        width: 80%;
     }
     .right_side{
-        flex: 0.65;
+        flex: 0.7;
+    }
+    td{
+        padding-right: 20px;
+        font-weight: 300;
     }
   }

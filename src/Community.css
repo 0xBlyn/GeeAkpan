@@ -125,7 +125,14 @@
         display: none;
     }
   }
-@media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1023px) and (max-width: 1030px) {
+    .h4 h4{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.6;
+    }
+  }
+@media screen and (min-width: 1030px) {
     .community{
         padding: 3% 2%;
         align-items: stretch;
