@@ -24,7 +24,7 @@ function Community() {
             <h4 className='comspan'>At FTLD (For The Love of Defi) , we are empowering our community members to embrace innovation using emerging tech skills!<br/></h4>
             <h4>Our platform is known to help over 3000 people transition into the tech space, find their paths and become Key Opinion Leaders in their tech tracks.</h4>
           </div>
-          <button className='wbtn'>Join FTLD</button>
+          <button className='wbtn'><a target='blank' href="https://bit.ly/FTLD-Community">Join FTLD</a></button>
         </div>
       </div>
     </div>

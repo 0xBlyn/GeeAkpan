@@ -5,7 +5,7 @@ import vector from './assets/Vector 1.png'
 
 function Newsletter() {
   return (
-    <div className='newsletter'>
+    <div id="newsletter"  className='newsletter'>
       <div>
         <img className='env' src={envelope} alt='envelope' />
         <h3>Subscribe to My Newsletter</h3>

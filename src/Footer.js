@@ -23,12 +23,12 @@ function Footer() {
             <tr>
                 <td><a target='blank' href="https://instagram.com/gee_akpan?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a></td>
                 <td><a target='blank' href="https://www.instagram.com/p/Cz1CmFJsY9S/?igshid=MTc4MmM1YmI2Ng==">Holo Tees</a></td>
-                <td>Podcasts</td>
+                <td><a href="#podcasts">Podcasts</a></td>
             </tr>
             <tr>
                 <td><a target='blank' href="https://twitter.com/GeeAkpan">Twitter</a></td>
                 <td>Aubrey Marketing</td>
-                <td>Newsletter</td>
+                <td><a href="#newsletter">Newsletter</a></td>
             </tr>
             <tr>
                 <td><a target='blank' href="https://ng.linkedin.com/in/geeakpan">LinkedIn</a></td>

@@ -19,7 +19,8 @@ function Youtube() {
     <div className='youtube section'>
       <div className='headline'>
         <h1>Godswill Akpan on Youtube</h1>
-        <h4>
+        <a target='blank' href="https://www.youtube.com/@GeeAkpan/videos" alt="youtube channel">
+          <h4>
           See more
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none">
             <path
@@ -28,12 +29,14 @@ function Youtube() {
             />
           </svg>
         </h4>
+        </a>
+        
       </div>
       <div className='cards'>
-        <YCard image={card} title={videoTitles[0]} videoId="SxyZiT0n_rE" />
-        <YCard image={card1} title={videoTitles[1]} videoUrl="https://youtu.be/SxyZiT0n_rE?si=Opt-7lmxn0Rzfnsg" />
-        <YCard image={card2} title={videoTitles[2]} videoUrl="https://www.youtube.com/watch?si=Uc8pbaU1ZuzdfTmL&v=pK8EzF-1GmA&feature=youtu.be" />
-        <YCard image={card3} title={videoTitles[3]} videoUrl="" />
+      <YCard image={card} title={videoTitles[0]} videoUrl="https://www.youtube.com/watch?si=Opt-7lmxn0Rzfnsg&v=SxyZiT0n_rE&feature=youtu.be" />
+      <YCard image={card1} title={videoTitles[1]} videoUrl="https://youtu.be/SxyZiT0n_rE?si=Opt-7lmxn0Rzfnsg" />
+      <YCard image={card2} title={videoTitles[2]} videoUrl="https://www.youtube.com/watch?si=Uc8pbaU1ZuzdfTmL&v=pK8EzF-1GmA&feature=youtu.be" />
+      <YCard image={card3} title={videoTitles[3]} videoUrl="" />
       </div>
     </div>
   );

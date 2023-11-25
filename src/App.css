@@ -5,6 +5,10 @@
   margin: 0;
   font-family: 'Syne', sans-serif;
 }
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
 .scrollbtn{
   position: fixed;
   bottom: 5%;

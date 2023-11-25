@@ -74,9 +74,12 @@
     border-radius: 4px;
     background: #FFF;
     padding: 5px 10px;
+    margin-left: 0;
+}
+.wbtn a{
+    text-decoration: none;
     color: #1D3E5D;
     font-size: 14px;
-    margin-left: 0;
 }
 .container_card{
     overflow-x: scroll;
@@ -188,8 +191,10 @@
     }
     .wbtn{
         padding: 10px 40px;
-        font-size: 20px;
         margin-top: 3%;
+    }
+    .wbtn a{
+        font-size: 20px;
     }
     .container_card{
         margin: 4% 6%;

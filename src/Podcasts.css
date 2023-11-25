@@ -8,6 +8,15 @@
     justify-content: space-between;
     padding: 5% 7%;
 }
+.headline a{
+    text-decoration: none;
+    display: flex;
+    color: #2C5D8C;
+    width: 120px;
+}
+.headline a:hover{
+    color: #1D3E5D;
+}
 .headline h1{
     background: var(--ga-blue-linear-gradient, linear-gradient(142deg, #238DDB 0%, #1D3E5D 100%));
     background-clip: text;
@@ -19,7 +28,6 @@
 .headline h4{
     display: flex;
     align-items: center;
-    color: var(--ga-dark-blue);
     font-size: 12px;
 }
 .cards{

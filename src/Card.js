@@ -2,18 +2,20 @@ import React from 'react'
 import './Card.css'
 import pic from './assets/Rectangle 25.png'
 
-function Card({image, title, sublet, button}) {
+function Card({ image, title, sublet, button, link }) {
   return (
     <div className='card'>
-        <img src={image} alt="event images" />
-        <h2>{title}</h2>
-        <h5>{sublet}</h5>
+      <img src={image} alt="event images" />
+      <h2>{title}</h2>
+      <h5>{sublet}</h5>
+      <a href={link} target="_blank" rel="noopener noreferrer">
         <button>{button}</button>
+      </a>
     </div>
-  )
+  );
 }
 
-export default Card 
+export default Card;
 
 
 export function Card1({photo, name, company, testimony}) {
@@ -33,18 +35,14 @@ export function Card1({photo, name, company, testimony}) {
 }
 
 // YCard component
-export function YCard({ image, title, videoId }) {
-  const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
-
-  const handleClick = () => {
-    window.open(videoUrl, '_blank');
-  };
+export function YCard({ image, title, videoUrl }) {
   return (
     <div className='card'>
-      <a href={`videoUrl`} target="_blank" rel="noopener noreferrer" onClick={handleClick}>
+      <a href={videoUrl} target="_blank">
         <img className='yimage' src={image} alt="event" />
       </a>
       <h2>{title}</h2>
     </div>
   );
 }
+
