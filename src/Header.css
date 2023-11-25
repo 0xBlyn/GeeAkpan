@@ -59,7 +59,7 @@ li {
   align-items: center;
   position: fixed;
   width: 100%;
-  padding: 2% 6%;
+  padding: 2.5% 6%;
   justify-content: space-between;
   font-weight: 600;
   z-index: 1000;
@@ -88,7 +88,7 @@ ul {
 }
 
 button {
-  padding: 10px 24px;
+  padding: 12px 12px;
   gap: 10px;
   border-radius: 4px;
   background: var(--header-button);
@@ -101,7 +101,7 @@ button {
   background-color: #172e46;
 }
 img {
-  width: 60%;
+  width: 70%;
 }
 
 .header_links {

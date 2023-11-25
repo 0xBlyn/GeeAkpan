@@ -93,7 +93,7 @@ function Header() {
         </ul>
       </div>
       <div className='header_button'>
-        <button>Book Me</button>
+        <button><a href= "https://form.jotform.com/233187296457569">Book Me</a> </button>
       </div>
       <div className='sidebar-trigger' onClick={handleIconClick}>
         {isSidebarOpen ? <CloseIcon className='close-icon' onClick={handleIconClick} /> : <DehazeIcon />}

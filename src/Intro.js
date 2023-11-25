@@ -103,7 +103,7 @@ function Intro() {
     <div className='intro'>
       <div className='intro_animation'>{getAnimationType(currentContentIndex)}</div>
       <h3>Breeding Greatness | Inspiring Innovation | Transforming Lives</h3>
-      <button>Book Me</button>
+      <button><a href= "https://form.jotform.com/233187296457569">Book Me</a> </button>
     </div>
   );
 }

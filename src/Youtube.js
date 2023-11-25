@@ -34,9 +34,9 @@ function Youtube() {
       </div>
       <div className='cards'>
       <YCard image={card} title={videoTitles[0]} videoUrl="https://www.youtube.com/watch?si=Opt-7lmxn0Rzfnsg&v=SxyZiT0n_rE&feature=youtu.be" />
-      <YCard image={card1} title={videoTitles[1]} videoUrl="https://youtu.be/SxyZiT0n_rE?si=Opt-7lmxn0Rzfnsg" />
-      <YCard image={card2} title={videoTitles[2]} videoUrl="https://www.youtube.com/watch?si=Uc8pbaU1ZuzdfTmL&v=pK8EzF-1GmA&feature=youtu.be" />
-      <YCard image={card3} title={videoTitles[3]} videoUrl="" />
+      <YCard image={card1} title={videoTitles[1]} videoUrl="https://youtu.be/IiOHeXayi64?si=4j6chMFFhvdDm_nI" />
+      <YCard image={card2} title={videoTitles[2]} videoUrl="https://youtu.be/pK8EzF-1GmA?si=2SEYUYAJe8eLEHd6" />
+      <YCard image={card3} title={videoTitles[3]} videoUrl="https://www.youtube.com/channel/UCsevnMZg-4n4OxZpNUMjnRQ" />
       </div>
     </div>
   );

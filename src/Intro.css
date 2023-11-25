@@ -26,6 +26,10 @@
   .intro button {
     margin-left: 0;
   }
+  .intro a{
+    text-decoration: none;
+    color: #fff;
+  }
   .intro button:hover{
     background-color: #172e46;
   }
@@ -53,7 +57,6 @@
   .fade-right {
     animation: fade-in-right 2.5s ease-in-out;
   }
-  
   @keyframes zoom-in {
     from {
       opacity: 0;
