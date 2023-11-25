@@ -7,6 +7,9 @@
     margin-right: 5%;
     position: relative;
 }
+.yimage{
+    cursor: pointer;
+}
 .card h2{
     font-size: 12px;
     font-weight: 600;
@@ -54,6 +57,9 @@
     font-size: 10px;
     font-weight: 700;
 
+}
+.cards a{
+    text-decoration: none;
 }
 .thumbnail-container {
     position: relative;

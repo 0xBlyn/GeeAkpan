@@ -1,5 +1,9 @@
 import React from 'react';
 import './Podcasts.css';
+import card from './assets/Frame 37.png'
+import card1 from './assets/Frame 37 (1).png'
+import card2 from './assets/Frame 37 (2).png'
+import card3 from './assets/Frame 37 (3).png'
 import YCard from './Card';
 
 function Youtube() {
@@ -26,10 +30,10 @@ function Youtube() {
         </h4>
       </div>
       <div className='cards'>
-        <YCard image={`https://img.youtube.com/vi/${videoIds[0]}/maxresdefault.jpg`} title={videoTitles[0]} videoId={`SxyZiT0n_rE`} />
-        <YCard image={`https://img.youtube.com/vi/${videoIds[1]}/maxresdefault.jpg`} title={videoTitles[1]} />
-        <YCard image={`https://img.youtube.com/vi/${videoIds[2]}/maxresdefault.jpg`} title={videoTitles[2]} />
-        <YCard image={`https://img.youtube.com/vi/${videoIds[3]}/maxresdefault.jpg`} title={videoTitles[3]} />
+        <YCard image={card} title={videoTitles[0]} videoId="SxyZiT0n_rE" />
+        <YCard image={card1} title={videoTitles[1]} videoUrl="https://youtu.be/SxyZiT0n_rE?si=Opt-7lmxn0Rzfnsg" />
+        <YCard image={card2} title={videoTitles[2]} videoUrl="https://www.youtube.com/watch?si=Uc8pbaU1ZuzdfTmL&v=pK8EzF-1GmA&feature=youtu.be" />
+        <YCard image={card3} title={videoTitles[3]} videoUrl="" />
       </div>
     </div>
   );
