@@ -10,9 +10,12 @@
   display: flex;
   top: 0;
   align-items: center;
+  position: fixed;
+  width: 100%;
   padding: 2% 6%;
   justify-content: space-between;
   font-weight: 600;
+  z-index: 1000;
 }
 
 ul {
@@ -97,7 +100,6 @@ img {
   img {
     width: 100%;
   }
-
   .header_logo {
     flex: 0.45;
   }
@@ -112,11 +114,6 @@ img {
 
   .open-sidebar {
     right: 0; /* Slide in the sidebar */
-  }
-  .header{
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
   }
 }
 /* Tablets and small laptops */
