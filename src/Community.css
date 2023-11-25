@@ -87,7 +87,45 @@
 .container_card::-webkit-scrollbar{
     display: none;
 }
-@media screen and (min-width: 768px) {
+/* Tablets and small laptops */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .comcard{
+        display: flex;
+        flex-direction: row;
+        padding-top: 1%;
+        padding-bottom: 0;
+    }
+    .comtext h2{
+        font-size: 24px;
+        font-size: 500;
+        width: 100%;
+    }
+    .comimages{
+        flex: 0.45;
+    }
+    .comtext{
+        flex: 0.55;
+        padding-right: 2%; 
+        padding-left: 2%;
+    }
+    .wbtn{
+        margin-top: 2%;
+    }
+    .comteam{
+        width: 145%;
+        bottom: 0;
+        padding-bottom: 0;
+    }
+    .h4 h4{
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 1.4;
+    }
+    .h4::-webkit-scrollbar{
+        display: none;
+    }
+  }
+@media screen and (min-width: 1024px) {
     .community{
         padding: 3% 2%;
         align-items: stretch;
@@ -150,21 +188,3 @@
         margin: 4% 6%;
     }
 }
-/* Tablets and small laptops */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .comcard{
-        font-size: 16px;
-    }
-    .comtext{
-        width: 60vw;
-    }
-    .h4 h4{
-        max-height: 500px !important;
-        overflow-y: scroll;
-        font-size: 14px;
-        text-align: justify;
-    }
-    .h4::-webkit-scrollbar{
-        display: none;
-    }
-  }
