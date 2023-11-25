@@ -34,6 +34,41 @@
 .ebook button{
     color: #2C5D8C;
 }
+@media screen and (min-width: 700px) and (max-width: 1029px){
+    .ebook{
+        padding: 1% !important;
+        margin: 10% 2%;
+        max-height: 320px !important;
+    }
+    .ebook_left h1{
+        font-size: 48px;
+    }
+    .ebook_left h3{
+        font-size: 24px !important;
+    }
+    .ebook_right{
+        flex: 0.42 !important;
+    }
+    .ebook_right img{
+        height: 400px !important;
+        width: 100%;
+    }
+    .ebook_left{
+        flex: 0.58 !important;
+        padding: 0 2% !important;
+        padding-left: 5% !important;
+    }
+    .ebook_left h4{
+        font-size: 18px !important;
+    }
+}
+@media screen and (min-width: 1030px) {
+    .ebook h1{
+        font-size: 80px;
+        font-weight: 700;
+        padding-bottom: 1%;
+    }
+}
 @media screen and (min-width: 700px) {
     .ebook{
         max-height: 410px;
@@ -47,11 +82,6 @@
     .ebook h3{
         font-size: 36px;
         font-weight: 600;
-    }
-    .ebook h1{
-        font-size: 80px;
-        font-weight: 700;
-        padding-bottom: 1%;
     }
     .ebook h4{
         font-size: 24px;
