@@ -4,10 +4,9 @@ import card from './assets/Frame 37.png'
 import card1 from './assets/Frame 37 (1).png'
 import card2 from './assets/Frame 37 (2).png'
 import card3 from './assets/Frame 37 (3).png'
-import YCard from './Card';
+import {YCard} from './Card'
 
 function Youtube() {
-  const videoIds = ['SxyZiT0n_rE', 'pK8EzF-1GmA', 'IiOHeXayi64', 'pK8EzF-1GmA'];
   const videoTitles = [
     'Web2 vs Web3: Benefits of Web3',
     'My Smart Contract Developer Journey at Web3',
@@ -19,8 +18,8 @@ function Youtube() {
     <div className='youtube section'>
       <div className='headline'>
         <h1>Godswill Akpan on Youtube</h1>
+        <h4>
         <a target='blank' href="https://www.youtube.com/@GeeAkpan/videos" alt="youtube channel">
-          <h4>
           See more
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none">
             <path
@@ -28,9 +27,8 @@ function Youtube() {
               fill="#2C5D8C"
             />
           </svg>
-        </h4>
         </a>
-        
+        </h4>
       </div>
       <div className='cards'>
       <YCard image={card} title={videoTitles[0]} videoUrl="https://www.youtube.com/watch?si=Opt-7lmxn0Rzfnsg&v=SxyZiT0n_rE&feature=youtu.be" />

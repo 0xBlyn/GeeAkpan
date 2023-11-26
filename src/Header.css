@@ -122,17 +122,26 @@ img {
 }
 
 .open-sidebar {
-  position: fixed;
+  position: absolute;
   top: 0;
-  right: -80vw;
+  right: 0;
   height: 100vh;
-  background-color: #1D3E5D;
-  width: 80vw;
-  transition: transform 900ms ease-in-out, right 300ms ease-in-out; /* Added transitions for smooth sliding */
+  background-color: #f9f9f9;
+  width: 85vw;
+  transition: transform 300ms ease-in-out, right 300ms ease-in-out;
   transform: translateX(0);
   border-top-left-radius: 15px;
 }
+@media screen and (min-width: 768px) {
+  .open-sidebar {
+    display: none;
+  }
 
+  /* Optionally, add more styles to adjust other elements based on your layout */
+  body {
+    padding-right: 0; /* Reset padding added for the sidebar */
+  }
+}
 .close-icon {
   position: absolute;
   top: 20px;
@@ -158,10 +167,10 @@ img {
     width: 100%;
   }
   .header_logo {
-    flex: 0.45;
+    flex: 0.6;
   }
   .header{
-    padding: 3% 5%;
+    padding: 5%;
   }
   .moreicon {
     display: flex;

@@ -70,7 +70,7 @@ function Header() {
             <h4 className='dropdown-trigger'>My Story <img src={dropdown} alt="dropdown icon" /></h4>
             {isDropdownOpen && (
               <div className="dropdown-menu">
-                <a target='blank' href="https://geeakpan.medium.com/" alt="youtube channel">My Blog</a>
+                <a target='_blank' rel="noreferrer" href="https://geeakpan.medium.com/" alt="youtube channel">My Blog</a>
                 <a href="#ebooks">My Books</a>
                 <a href="#podcasts">VoG Podcast</a>
               </div>
@@ -84,9 +84,9 @@ function Header() {
             <h4 className='dropdown-trigger'>Let's Innovate <img src={dropdown} alt="dropdown icon" /></h4>
             {isDropdownOpen && (
               <div className="dropdown-menu">
-                <a target='blank' href="https://ng.linkedin.com/company/fortheloveofdefi">FTLD</a>
+                <a target='_blank' rel="noreferrer" href="https://ng.linkedin.com/company/fortheloveofdefi">FTLD</a>
                 <a href='/'>Aubrey Marketing</a>
-                <a target='blank' href="https://www.instagram.com/p/Cz1CmFJsY9S/?igshid=MTc4MmM1YmI2Ng==">Holo Tees</a>
+                <a target='_blank' rel="noreferrer" href="https://www.instagram.com/p/Cz1CmFJsY9S/?igshid=MTc4MmM1YmI2Ng==">Holo Tees</a>
               </div>
             )}
           </li>

@@ -38,7 +38,7 @@ export function Card1({photo, name, company, testimony}) {
 export function YCard({ image, title, videoUrl }) {
   return (
     <div className='card'>
-      <a href={videoUrl} target="_blank">
+      <a href={videoUrl} target="_blank" rel="noreferrer">
         <img className='yimage' src={image} alt="event" />
       </a>
       <h2>{title}</h2>

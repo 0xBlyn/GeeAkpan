@@ -10,9 +10,9 @@ function Medium() {
   return (
     <div className='medium section'>
         <div className='headline'>
-            <h1>Godswill Akpan on Medium</h1>
-            <a target='blank' href="https://geeakpan.medium.com/" alt="youtube channel">
+            <h1>Godswill Akpan on Medium</h1>  
           <h4>
+          <a target='blank' href="https://geeakpan.medium.com/" alt="youtube channel">
           See more
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none">
             <path
@@ -20,8 +20,8 @@ function Medium() {
               fill="#2C5D8C"
             />
           </svg>
-        </h4>
         </a>
+        </h4>
         </div>
       <div className='cards'>
       <Card
