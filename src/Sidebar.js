@@ -63,9 +63,9 @@ const NewSidebar = ({ isOpen, onClose }) => {
           <li onClick={(e) => { handleLinkClick(e, false); handleDropdownToggle(3); }}>
             <h4>Let's Innovate<KeyboardArrowDownIcon /></h4>
             {dropdownStates[3] && (
-              <div className="new-dropdown-menu">2
+              <div className="new-dropdown-menu">
                 <a target='_blank' rel="noreferrer" href="https://bit.ly/FTLD-Community">FTLD</a>
-                <a href='/'>Aubrey Marketing</a>
+                <a href='/'>Aubrey Marketing (Coming Soon)</a>
                 <a target='_blank' rel="noreferrer" href="https://www.instagram.com/p/Cz1CmFJsY9S/?igshid=MTc4MmM1YmI2Ng==">Holo Tees</a>
               </div>
             )}
